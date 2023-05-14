@@ -1,5 +1,8 @@
 # Calculadora
 
+![image](https://github.com/paul-23/pas-c5-ta34-angular-basics/assets/62121921/c7a98519-3590-4532-b042-fe40b0f94cb2)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
 ## Development server
