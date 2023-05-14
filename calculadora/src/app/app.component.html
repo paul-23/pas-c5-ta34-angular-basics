@@ -1,0 +1,95 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-6 col-sm-8 col-md-6 col-lg-4 col-xl-3 calculator">
+
+      <div class="row">
+        <div class="col-12">
+          <div class="screen">
+            <input
+              type="text"
+              class="screen-content"
+              id="string"
+              readonly
+            />
+            <input
+              type="text"
+              class="screen-content"
+              id="result"
+              readonly
+            />
+          </div>
+
+          <div class="row">
+            <div class="col-8 d-flex botonera-num">
+              <div class="row flex-fill">
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(7)">7</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(8)">8</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(9)">9</button>
+                </div>
+              </div>
+              <div class="row flex-fill">
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(4)">4</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(5)">5</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(6)">6</button>
+                </div>
+              </div>
+              <div class="row flex-fill">
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(1)">1</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(2)">2</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(3)">3</button>
+                </div>
+              </div>
+              <div class="row flex-fill">
+                <div class="col-4">
+                  <button class="btn" (click)="insertDecimal()">.</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(0)">0</button>
+                </div>
+                <div class="col-4">
+                  <button class="btn" (click)="insertNumber(00)">00</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 botonera-operacion">
+              <div class="col-12">
+                <button class="btn gris" (click)="clearAll()">DEL</button>
+              </div>
+              <div class="col-12">
+                <button class="btn gris" (click)="insertOperator('/')">/</button>
+              </div>
+              <div class="col-12">
+                <button class="btn gris" (click)="insertOperator('*')">×</button>
+              </div>
+              <div class="col-12">
+                <button class="btn gris" (click)="insertOperator('-')">-</button>
+              </div>
+              <div class="col-12">
+                <button class="btn gris" (click)="insertOperator('+')">+</button>
+              </div>
+              <div class="col-12">
+                <button class="btn gris" (click)="calculate()">=</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

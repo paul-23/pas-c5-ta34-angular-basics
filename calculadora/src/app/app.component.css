@@ -1,0 +1,93 @@
+.row > * {
+  padding: 0px !important;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0px !important;
+}
+
+.calculator {
+  margin: 30px;
+  box-shadow: 1px 1px 2px 0 #505050;
+  padding: 0px !important;
+  min-width: 220px;
+}
+
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 130px;
+  flex-wrap: wrap;
+}
+
+.screen-content {
+  padding-right: 20px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: right;
+  background-color: #ffffff;
+  vertical-align: bottom;
+  border-radius: 0 !important;
+}
+
+.screen-content:focus-visible {
+  outline: none;
+}
+
+#string {
+  font-size: 30px;
+  height: 50%;
+  transition: all 0.3s;
+}
+
+#result {
+  height: 50%;
+  font-size: 45px;
+  transition: all 0.3s;
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #333333;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #696969;
+}
+
+.botonera-num {
+  flex-wrap: wrap;
+}
+
+.btn-guia {
+  font-size: 20px;
+}
+
+.gris {
+  background-color: #4db7ad;
+}
+
+.gris:hover {
+  background-color: #328a81;
+}
+
+.oper {
+  background-color: #d9d9d9;
+  color: #000;
+}
+
+.oper:hover {
+  background-color: #e4e4e4;
+}
